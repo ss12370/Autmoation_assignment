@@ -2,7 +2,7 @@ import pytest
 from utils.driver_factory import get_driver
 from selenium.webdriver.common.by import By 
 from pages.signup_page import SignupPage
-
+from data.test_data import *
 
 
 @pytest.fixture
@@ -18,11 +18,11 @@ def test_user_can_signup(driver):
     signup = SignupPage(driver)
 
     signup.create_account(
-        phone="9148358383",
-        otp="1111",
-        first_name="QA",
-        last_name="Tester",
-        email="qatester123@gmail.com"
+        phone=PHONE,
+        otp=OTP,
+        first_name=FIRST_NAME,
+        last_name=LAST_NAME,
+        email=EMAIL
     )
 
     # Simple validation

@@ -3,7 +3,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-
+from config.config import BASE_URL
 
 @pytest.fixture(scope="function")
 def driver():
@@ -22,7 +22,7 @@ def driver():
     )
 
     driver.maximize_window()
-    driver.get("https://dev.trulyfree.com/")
+    driver.get(BASE_URL)
 
     yield driver
 

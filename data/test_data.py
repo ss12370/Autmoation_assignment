@@ -1,0 +1,5 @@
+PHONE = "9148358383"
+OTP = "1111"
+FIRST_NAME = "QA"
+LAST_NAME = "Tester"
+EMAIL = "qatester123@gmail.com"
