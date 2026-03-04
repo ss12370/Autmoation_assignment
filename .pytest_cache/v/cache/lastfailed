@@ -1,0 +1,8 @@
+{
+  "tests/test_brand_navigation.py::test_navigate_to_brand": true,
+  "tests/test_brands.py::test_navigate_to_brand": true,
+  "tests/test_brands.py::test_navigate_to_campus_brand": true,
+  "tests/test_e2e_flow.py::test_full_user_flow": true,
+  "tests/test_product.py::test_plp_to_pdp_navigation": true,
+  "tests/test_signup.py::test_user_can_signup": true
+}
